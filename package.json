@@ -1,0 +1,16 @@
+{
+  "name": "tic-tac-toe-game",
+  "version": "1.0.0",
+  "description": "I will create a Tic-Tac-Toe Game using JavaScript. I will be using validation checks to implement the game features. The UI is designed using CSS so it is easy to create. In the game, Player-1 starts playing the game and both players make their moves in consecutive turns. The player who makes a straight 3-block chain wins the game.",
+  "main": "main.js",
+  "scripts": {
+    "test": "standard && node main.js",
+    "fix": "standard --fix"
+  },
+  "keywords": [],
+  "author": "alfonsoj.entwickler",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^17.1.0"
+  }
+}
