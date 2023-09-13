@@ -1,16 +1,11 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     height: 100vh;
     margin: 0;
     padding: 0;
     background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
 }
 
-#gameboard {
-    display: flex;
+#gameboard { 
     flex-wrap: wrap;
     width: 900px;
     height: 900px;
@@ -62,4 +57,21 @@ body {
     height: 30%;
     width: 100%;
     margin-top: -15%;
+}
+
+/* General classes */
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
 }
